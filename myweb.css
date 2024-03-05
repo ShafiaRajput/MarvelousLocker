@@ -1,0 +1,717 @@
+.bgcolor{
+    background: #DD5E89;
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);
+    background: linear-gradient(to right, #F7BB97, #DD5E89);
+    
+}
+.text-muted{
+    padding-left: 2%;
+    font-weight: 500;
+    text-shadow: 6px 6px 12px black;
+}
+.bgcolor3{
+    background-color: black;
+}
+
+
+.navcolor{
+    background: #DD5E89;
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);
+    background: linear-gradient(to right, #F7BB97, #DD5E89);
+    
+}
+.header-area .original-nav-area .classynav ul li a {
+    text-transform: uppercase;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: 6px 6px 12px black;
+    font-family: 'Poppins', sans-serif;
+}
+.sec1{
+    text-align: center;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    font-size: 18px;
+    padding: 1%;
+    color:white;
+    text-shadow: 3px 3px 10px rgb(27, 27, 27);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    max-width: 65%;
+    height: 50%;
+}
+.b{
+    font-size: 30px;
+    color: rgb(205, 156, 9);
+    font-weight: 400;
+}
+.bgcolor2{
+   background-color: #F7BB97;
+}
+.textcolor{
+    color: rgb(205, 156, 9);
+    font-weight: 400;
+    font-size:33px;
+    text-shadow: 3px 3px 10px rgb(93, 93, 93);
+}
+.imgb{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.py-24{
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+}
+.heading1{
+    color: white;
+}
+.blockcolor{
+    background: #DD5E89;
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);
+    background: linear-gradient(to right, #F7BB97, #DD5E89);
+    
+}
+.classynav ul li .megamenu .single-mega.cn-col-4{
+    border: 0px solid black;
+}
+.wimg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single-mega{
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-shadow: 3px 3px 10px black;
+}
+.woblock{
+    width: 60%;
+}
+.headingtext{
+    text-shadow: 3px 3px 10px #DD5E89;
+    text-align: center;
+}
+.space{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.imgsec2{
+    width: 100%;
+    height: 70%;
+    background-position: center;  
+}
+.padding{
+    padding: 1rem;
+}
+.po{
+    text-align: left;
+    color: aliceblue;
+}
+.textcolor1{
+    text-shadow: 3px 3px 10px black;
+}
+.lastcolor{
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+.secpop{
+    width: 80%;
+    display: flex;
+    overflow-x:auto;
+    margin-left: 10%;
+    height: 50%;
+}
+.secpop::-webkit-scrollbar{
+    width: 0;
+}
+.secpop .secpop0{
+    width: 120px;
+    height: 140px;
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 60px;
+    border-top-left-radius:30% ;
+    border-bottom-right-radius: 30%;
+    box-shadow: 4px 4px 12px #DD5E89;
+}
+.secpop1{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/RTW-Thumbnails_7159416b-a9b0-4b43-9da9-d4c2dd919e3a.jpg?v=1697104598);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop2{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/menswear-stitched-Thumbnails_eb41a29a-f92e-4d24-832b-64af7ab52ac0.jpg?v=1697105655);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop4{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/west-scarves-Thumbnail_4e14894a-598f-4c9e-bd09-08f1bb1098d3.jpg?v=1696506197);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop3{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/unstitched_thumbnails.jpg?v=1696494434);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop5{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/contour_bb41d1be-3711-4976-a753-6f88adf72ffd.jpg?v=1692354731);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop6{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/west-thumbnails_a087bdea-5e86-4dbf-b2e7-dac5ee8abeed.jpg?v=1696502210);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop7{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/Unstitched-thumbnails.jpg?v=1697656160);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop8{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/stitched_tumbnails.jpg?v=1697656159);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop9{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/girls-Thumbnails_c35fb4ac-8d2c-465c-bfc4-373e1eb8635b.jpg?v=1697106686);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop10{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/boys-Thumbnails.jpg?v=1697106670);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop11{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/kids_aadd20cb-5d56-4347-8fea-a318fffcfc98.jpg?v=1674133408);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpopo{
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop12{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/cosmetics-2.jpg?v=1649325465);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop13{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/fragrances_66cc46e7-15d9-4083-b834-83a112a15994.jpg?v=1686219909);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop14{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/rtw_717fa69f-4827-4b09-be0f-291796774949.jpg?v=1663585820);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop15{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/west-1_50b5cd5e-781b-4a12-b4d0-febee84aac99.jpg?v=1663585820);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop16{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/MODEST-WEAR_1a8c7c66-6688-47ae-bcbd-f6469df50fad.jpg?v=1673516594);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop17{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/kids-2.jpg?v=1663585820);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop18{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/Untitled-1_8e9c207a-6438-4f36-85ef-9338b977019e.jpg?v=1696238207);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop19{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/velvet_-thumbnail.jpg?v=1698910676);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop20{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/RTW-Festive-Thumbnail.jpg?v=1694686688);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop21{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/luxury-thumbnail.jpg?v=1698910677);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop22{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/silk-Thumbnails.jpg?v=1697191587);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop23{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/fusion_a8c6499f-d9a3-41e1-a422-c885bcb71068.jpg?v=1677150502);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop24{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/embrroo-thumbnail.jpg?v=1698910676);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop25{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/solids-thumbnail.jpg?v=1698910676);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop26{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/outfits-thumbnail_c6b44956-7285-4799-b1b6-b39d741e9a9e.jpg?v=1698910676);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop27{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/matching-seperates-Thumbnails.jpg?v=1697104598);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop28{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/winter-I-thumbnail.jpg?v=1698908939);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop29{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/Fall-winter-thumbnails.jpg?v=1696494433);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop30{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/styled-by-sarah-khan-whats-new.jpg?v=1696502035);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop31{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/festive-thumbnail.jpg?v=1693474891);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop32{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/US-BOTTOMS.webp?v=1698319256);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop33{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/1-piece-thumbnails.jpg?v=1695294706);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop34{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/2-piece-thumbnails_f4b7c3a7-32e7-4252-b11f-09c551c6f06d.jpg?v=1695294706);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop35{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/3-piece-thumbnails.jpg?v=1695294707);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop36{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/zari--khaddar.jpg?v=1696505419);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop37{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/fall-winter-2023-thumbnails.jpg?v=1696502210);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop38{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/outerwear-thumbnails.jpg?v=1696502210);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop39{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/tops-thumbnails_e345b293-b7d2-41dc-a741-8b5fdc1ccfe6.jpg?v=1696504816);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop40{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/t-shirts-thumbnails_07152783-7860-41af-bce4-e9e7a0a40895.jpg?v=1696504816);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop41{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/dresses-thumbnails_6dc66a90-c4ef-463c-95e2-6c0b24b80539.jpg?v=1696504816);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop42{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/essentials-thumbnails_835ce5b7-fa74-4aa7-b6e0-dc5fe1edfdf4.jpg?v=1696504816);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop43{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/co-ord-sets-thumbnail.jpg?v=1698926949);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop44{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/jeans-thumbnails.jpg?v=1692869246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop45{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/skirts-thumbnails_6048acdd-e36d-4e92-922b-0c72cad77e8b.jpg?v=1696504816);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop46{
+    background-image: url(
+        https://cdn.shopify.com/s/files/1/1592/0041/files/US-Fall-winter-thumbnails.jpg?v=1697656298        );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop47{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/shawls-thumbnails.jpg?v=1697656159);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop48{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/festive-1-thumbnail.jpg?v=1693474890);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop49{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/premium-blended-viscose.jpg?v=1697626494);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop50{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/stitchedfall-winterthumbnails.jpg?v=1697656159);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop51{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/menswear-stitched-thumbnails_550ca74a-eae2-4b2d-95e9-7867f7b505f1.jpg?v=1695294328);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop52{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/menswear-kurta-Thumbnails.jpg?v=1697105655);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop53{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/outfits-thumbnails_081faf20-8fda-4075-9fd1-4b0dfd3b0601.jpg?v=1697656159);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop54{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/sherwanis-thumbnails.jpg?v=1695292413);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop55{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/waistcoats-thumbnails_332a7de0-29f8-4b45-a096-b7dd8fe803e8.jpg?v=1697656159);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop56{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/bottoms_573ac504-0cd5-40ad-8601-5869c35e51ef.jpg?v=1688640273);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop57{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/naseem.webp?v=1698307205);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop58{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/US-Fall-winter-thumbnails.jpg?v=1697656298);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop59{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/p3_92cf6ba6-4eeb-499c-9a36-00e65df6d90b.jpg?v=1697524637);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop60{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/girls-outfits-Thumbnails.jpg?v=1697106671);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop61{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/fusion-thumbnail.jpg?v=1697187026);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop62{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/girls-bottoms_6e9d92b2-ad25-4406-b8d6-f040395b3e78.jpg?v=1685616354);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop63{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/boys-kurta-Thumbnails.jpg?v=1697106670);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop64{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/boys-outfits-Thumbnails.jpg?v=1697106671);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop65{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/boys-waistcoat-Thumbnails.jpg?v=1697106671);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop66{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/boys-bottoms.jpg?v=1637688648);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop67{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/boys-bedding-thumbnail.jpg?v=1698916202);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop68{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/girls-bedding-thumbnail.jpg?v=1698916203);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop69{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/foundations.jpg?v=1649325465);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop70{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/lipsticks_9b4d637e-dcc4-4bd8-ad7c-ab6d67499ad8.jpg?v=1649325466);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop71{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/eyeliner.jpg?v=1649325466);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop72{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/nails_8d15f8da-78d6-4df9-8ecf-868a6547921e.jpg?v=1649402335);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop73{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/eye-lash-curler-2_be346781-f494-4b64-97b8-d0a885dba008.jpg?v=1649402419);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secpop74{
+    background-image: url(
+        https://cdn.shopify.com/s/files/1/1592/0041/files/cosmetics-2.jpg?v=1649325465
+        );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop75{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/For-her_05d154bf-5eef-4913-9f48-13056c91074f.jpg?v=1686219763);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop76{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/fior-him.jpg?v=1686219762);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop77{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/women-body-mist.jpg?v=1696933189);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpop78{
+    background-image: url(https://cdn.shopify.com/s/files/1/1592/0041/files/men-body-mist.jpg?v=1696933189);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secpopo{
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white1{
+    color: white;
+    text-shadow: 3px 3px 10px #DD5E89;
+}
+.p4{
+    padding: 1%;
+}
+.sec3{
+    display: inline-block;
+}
+.sec3p1{
+    float: left;
+}
+.navbutton{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    background-color:#F7BB97 !important;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.iconbag{
+    font-size: 35px;
+}
+.shadowimg1{
+    box-shadow: 4px 4px 13px black;
+}
+.boxshadow{
+    box-shadow: 4px 4px 12px #DD5E89;
+}
+.gold{
+    color: gold;
+}
+.byprice{
+    color: white;
+    font-size: 30px;
+    padding: 3px;
+}
+.btn1count{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    background-color: #DD5E89;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 3%;
+}
+.btn2count{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    background-color: #DD5E89;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 3%;
+}
+.counter1{
+    color: white;
+    margin: 3%;
+    font-size: 25px;
+}
+.startsec{
+    background-image: url(./fontimg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30%;
+    padding-top: 20%;
+}
+.fonthead{
+    color:#DD5E89;
+    text-shadow: 5px 5px 15px white;
+}
+.barfont{
+    background-color: #dd5e88a5;
+}
+.barfont > option{
+    background-color: #dd5e88a5;
+}
+.fontbtn1{
+    background-color: #DD5E89;
+    box-shadow: 4px 4px 13px black;
+}
+.bgimgcontact{
+    /* background-image: url(https://instagram.fisb13-1.fna.fbcdn.net/v/t51.2885-15/397807252_875008987354824_5370289011260397816_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fisb13-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=sGk3EzTL_PsAX8588l4&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCq3LhT5VBlidcgqn1fbXV90ah4cyTARE6djJyzLzLjeg&oe=6549EA6B&_nc_sid=8b3546);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     */
+     background-color: #F7BB97;
+}

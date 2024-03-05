@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <title>Marvelous Locker</title>
+        <link rel="shortcut icon" type="image/icon" href="./lockpic.webp"/>
+        <script src="https://cdn.tailwindcss.com"></script>  
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"  rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet"/>
+        
+        
+        <link rel="stylesheet" href="./myweb.css">
+    </head>
+    <body style="background-color:  #F7BB97;">
+    <script>
+     let count = 0;
+
+     function increaseCount() {
+     count += 1;
+     document.getElementById("count").textContent = count;
+     }
+
+     function decreaseCount() {
+      count -= 1;
+      if(count < 0){
+        count = 0;
+      }
+     document.getElementById("count").textContent = count;
+      }
+
+    </script>
+    <!-- Preloader -->
+<div id="preloader">
+  <div class="preload-content">
+      <div id="original-load"></div>
+  </div>
+</div>
+
+<!-- Subscribe Modal -->
+<div class="subscribe-newsletter-area">
+  <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <button type="button" class="navbutton" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <div class="modal-body navcolor">
+                  <h5 class="title white1">Log In</h5>
+                  <form action="#" class="newsletterForm" method="post">
+                      <input type="text" name="email" id="subscribesForm2" placeholder="Your Email here">
+                      <br>
+                      <input type="password" name="pass" id="subscribesForm2" placeholder="Password">
+                      <button type="submit" class="btn original-btn white1">Log In</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- ##### Header Area Start ##### -->
+<header class="header-area navcolor">
+
+  <!-- Top Header Area -->
+          <!-- Nav Area -->
+  <div class="original-nav-area" id="stickyNav">
+      <div class="classy-nav-container breakpoint-off blockcolor">
+          <div class="container">
+              <!-- Classy Menu -->
+              <nav class="classy-navbar justify-content-between">
+
+                  <!-- Subscribe btn -->
+                  <div class="subscribe-btn" >
+                      <a href="#" style="background-color: #DD5E89;box-shadow: 2px 2px 8px black; color:white;font-weight: 600;" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">Log In</a>
+                  </div>
+
+                  <!-- Navbar Toggler -->
+                  <div class="classy-navbar-toggler">
+                      <span class="navbarToggler"><span></span><span></span><span></span></span>
+                  </div>
+
+                  <!-- Menu -->
+                  <div class="classy-menu" id="originalNav">
+                      <!-- close btn -->
+                      <div class="classycloseIcon">
+                          <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                      </div>
+
+                      <!-- Nav Start -->
+                      <div class="classynav">
+                          <ul>
+                              <li><a href="./specialoffer.html">SPECIAL OFFERS</a></li>
+                              <li><a href="./newIn.html">NEW IN</a>
+                                  <div class="megamenu blockcolor">
+                                      <ul class="single-mega cn-col-4">
+                                         <img src="./navimg.webp"> 
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">NEW IN</li>
+                                          <li><a href="./new_in_readyToWear.html">Ready to Wear</a></li>
+                                          <li><a href="./newIn_man.html">Man</a></li>
+                                          <li><a href="./newIn_unstitched.html">Unstitched</a></li>
+                                          <li><a href="./newIn_west.html">West</a></li>
+                                          <li><a href="./newIn_accessories.html">Accessories</a></li>
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">BY COLLECTION</li>
+                                          <li><a href="./byC_naseem.html">MARVELOUS X Naseem & Shadab</a></li>
+                                          <li><a href="./byC_girlsFusion.html">Girl Fusion</a><li>
+                                          <li><a href="./byC_chunri.html">Chunir</a></li>
+                                          <li><a href="./byC_denim.html">Denim</a></li>
+                                          <li><a href="./byC_weekend.html">The Weekend</a></li>
+                                          <li><a href="./byC_outerwear.html">Outerwear</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                              <li><a href="./women.html">WOMEN</a>
+                                  <div class="megamenu blockcolor">
+                                    <ul class="single-mega cn-col-4 headingcolor woblock">
+                                      <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/woman.webp?v=1698645000&width=400"> 
+                                  </ul>
+                                  <ul class="single-mega cn-col-4">
+                                      <li class="title">READY TO WEAR</li>
+                                      <li><a href="./w.html">Fall/winter 23</a></li>
+                                      <li><a href="./w_festive.html">Festive I</a></li>
+                                      <li><a href="./w_luxury.html">Luxury</a></li>
+                                      <li><a href="./w_silk.html">Silk</a></li>
+                                      <li><a href="./w_fusion.html">Fusion</a></li>
+                                      <li><a href="./w_embroidered.html">Embroidered</a></li>
+                                      <li><a href="./w_printed.html">Printed</a></li>
+                                      <li><a href="./w_sustainable.html">Sustainable</a></li>
+                                      <li><a href="./w_outfits.html">Outfits</a></li>
+                                      <li><a href="./w_matchingSeparetes.html">Matching Separates</a></li>
+                                  </ul>
+                                  <ul class="single-mega cn-col-4">
+                                      <li class="title">UNSTITCHED</li>
+                                      <li><a href="./w_un_day.html">Day to Day| Winter  </a></li>
+                                      <li><a href="./w_un_fallwinter.html"> Fail/Winter '23</a></li>
+                                      <li><a href="./w_un_stitched.html">Stitched For you</a></li>
+                                      <li><a href="./w_un_festive.html">Festive |</a></li>
+                                      <li><a href="./w_un_unstichedbottom.html">Unstitched Bottoms</a></li>
+                                      <li><a href="./w_un_1piece.html">1 Piece</a></li>
+                                      <li><a href="./w_un_2piece.html">2 Piece</a></li>
+                                      <li><a href="./w_un_3piece.html">3 Piece</a></li>
+                                      <li><a href="./w_un_FabricGlossary.html">Fabric Glossary</a></li>
+                                  </ul>
+                                  <ul class="single-mega cn-col-4">
+                                      <li class="title">WEST</li>
+                                      <li><a href="./W_w_fallwinter.html">Fall/Winter'23</a></li>
+                                      <li><a href="./W_w_outerwear.html">Outerwear</a></li>
+                                      <li><a href="./W_w_tops.html">Tops</a></li>
+                                      <li><a href="./W_w_tshirt.html">T-Shirts</a></li>
+                                      <li><a href="./W_w_dresses.html">Dresses</a></li>
+                                      <li><a href="./W_w_essentials.html">Essentials</a></li>
+                                      <li><a href="./W_w_co_ordsets.html">Co-ord Sets</a></li>
+                                      <li><a href="./W_w_jeans.html">Jeans</a></li>
+                                      <li><a href="./W_w_skirts.html">Skirts</a></li>
+                                      <li><a href="./W_w_bottoms.html">Bottoms</a></li>
+                                      <li><a href="./W_w_accessories.html">Accessories</a></li>
+                                  </ul>
+                                  </div>
+                              </li>
+                              <li><a href="./men.html">MEN</a>
+                                  <div class="megamenu blockcolor">
+                                      <ul class="single-mega cn-col-4">
+                                          <img src="./navimg1.webp">
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">MEN'S UNSTITCHED</li>
+                                          <li><a href="./m_un_fallwinter.html">Fall/Winter'23</a></li>
+                                          <li><a href="./m_un_shawls.html">Shawls</a></li>
+                                          <li><a href="./m_un_festive.html">Festive |</a></li>
+                                          <li><a href="./m_un_fabrics.html">Fabric Glossary</a></li>
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">MEN'S STITCHED</li>
+                                          <li><a href="./m_stitched_fallwinter.html">Fall/Winter'23</a></li>
+                                          <li><a href="./m_stitched_festive.html">Festive |</a></li>
+                                          <li><a href="./m_stitched_kurtas.html">Kurtas</a></li>
+                                          <li><a href="./m_stitched_outfit.html">Outfits</a></li>
+                                          <li><a href="./m_stitched_prince.html">Prince Coats & Sherwanis</a></li>
+                                          <li><a href="./m_stitched_waistcoats.html">waistcoat</a></li>
+                                          <li><a href="./m_stitched_bottoms.html">Bottoms</a></li>
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">CATALOGUE</li><br>
+                                          <li><a href="./m_naseem.html">MARVELOUS X Naseem & Shadab</a></li><br>
+                                          <li><a href="./m_c_fallwinter.html">Fall/Winter'23</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                              <li><a href="./kids.html">KIDS</a>
+                                  <div class="megamenu blockcolor">
+                                      <ul class="single-mega cn-col-4">
+                                          <img src="./navimg2.webp">
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">GIRLS</li>
+                                          <li><a href="./k_g_kurtas.html">Kurtas</a></li>
+                                          <li><a href="./k_g_outfits.html">Outfits</a></li>
+                                          <li><a href="./k_g_fusion.html">Fusion</a></li>
+                                          <li><a href="./k_g_bottoms.html">Bottoms</a></li>
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">BOYS</li>
+                                          <li><a href="./k_b_kurtas.html">Kurtas</a></li>
+                                          <li><a href="./k_b_outfits.html">Outfits</a></li>
+                                          <li><a href="./k_b_waistcoats.html">Waistcoats</a></li>
+                                          <li><a href="./k_b_bottoms.html">Bottoms</a></li>
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">KIDS BEDDING</li>
+                                          <li><a href="./k_w_boys.html">Boys</a></li>
+                                          <li><a href="./k_w_girls.html">Girls</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                              <li><a href="./beauty.html">BEAUTY</a>
+                                  <div class="megamenu blockcolor">
+                                      <ul class="single-mega cn-col-4">
+                                          <img src="./navimg3.webp">
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">Cosmetics</li>
+                                          <li><a href="./beauty_c_face.html">Face</a></li>
+                                          <li><a href="./beauty_c_lips.html">Lips</a></li>
+                                          <li><a href="./beauty_c_eyes.html">Eyes</a></li>
+                                          <li><a href="./beauty_c_nails.html">Nails</a></li>
+                                          <li><a href="./beauty_c_makeuptools.html">Makeup Tools</a></li>
+                                          <li><a href="./beauty_c_allaboutmlCosmetics.html">All About MARVELOUS LOCKER Cosmetics</a></li>
+                                      </ul>
+                                      <ul class="single-mega cn-col-4">
+                                          <li class="title">FRAGRANCES</li>
+                                          <li><a href="./beauty_f_womens.html">women's Fragrances</a></li>
+                                          <li><a href="./beauty_f_womensbodymists.html">Women's Body Mists</a></li>
+                                          <li><a href="./beauty_f_mensbodymists.html">Men's Body Mists</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                          </ul>
+                          <!-- Search Form  -->
+                          <div id="search-wrapper">
+                              <form action="#">
+                                  <input type="text" id="search" placeholder="Search something...">
+                                  <div id="close-icon"></div>
+                                  <input class="d-none" type="submit" value="">
+                              </form>
+                          </div>
+                      </div>
+                      <!-- Nav End -->
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
+</header>
+<br>
+<br>
+<nav class="flex" aria-label="Breadcrumb">
+  <ol class="inline-flex items-center space-x-1 md:space-x-3">
+    <li class="inline-flex items-center white1">
+      <a href="./myWeb.html" class="inline-flex items-center text-sm font-medium hover:text-blue-600 dark:hover:text-white white1">
+        <svg class="w-3 h-3 mr-2.5 px-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+        </svg>
+        Home
+      </a>
+    </li>
+    <li>
+      <div class="flex items-center white1">
+        <svg class="w-3 h-3 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+        <a href="./w_festive.html" class="ml-1 text-sm font-medium hover:text-blue-600 md:ml-2 white1 dark:hover:text-white">FASTIVE</a>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center white1">
+        <svg class="w-3 h-3 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+        <a href="#" class="ml-1 text-sm font-medium hover:text-blue-600 md:ml-2 white1 dark:hover:text-white">3 PIECE - EMBROIDERED ORGANZA SUITT</a>
+      </div>
+    </li>
+  </ol>
+</nav>
+<br>
+<section class="text-gray-600 body-font">
+    <div class="container mx-auto overflow-hidden">
+      <div class="lg:w-5/5 mx-auto flex flex-wrap ">
+        <div class="grid grid-cols-2 w-1/1 sm:w-1/1 md:w-1/1 lg:w-1/2 md:grid-cols-2 gap-4 ">
+            <div class="overflow-hidden boxshadow rounded-lg">
+                <img class="lg\:h-80 h-96 lg\:w-96 sm\:h-56 sm\:w-96 md\:h-80 md\:w-96 w-\[148px\] duration-1000 hover:scale-125" src="
+                https://pk.sapphireonline.pk/cdn/shop/files/00FCELX23V31_3_a740df9d-261a-4bd0-bb87-c58dd2430eea.jpg?v=1695291075&width=600                " alt="">
+            </div>
+            <div class="overflow-hidden boxshadow rounded-lg">
+                <img class="lg\:h-80 h-96 lg\:w-96 sm\:h-56 sm\:w-96 md\:h-96 md\:w-96 w-\[148px\] duration-1000 hover:scale-125" src="
+                https://pk.sapphireonline.pk/cdn/shop/files/00FCELX23V31_1_d12621f4-4d7d-44fe-8076-f796a836c13d.jpg?v=1695291075&width=600                " alt="">
+            </div>
+            <div class="overflow-hidden boxshadow rounded-lg">
+                <img class="lg\:h-80 h-96 lg\:w-96 sm\:h-56 sm\:w-96 md\:h-96 md\:w-96 w-\[148px\] duration-1000 hover:scale-125" src="
+                https://pk.sapphireonline.pk/cdn/shop/files/00FCELX23V31_2_136b4717-3134-4595-98b2-4dae5f13d248.jpg?v=1695291075&width=600                " alt="">
+            </div>
+            <div class="overflow-hidden boxshadow rounded-lg">
+                <img class="lg\:h-80 h-96 lg\:w-96 sm\:h-56 sm\:w-96 md\:h-96 md\:w-96 w-\[148px\] duration-1000 hover:scale-125" src="
+                https://pk.sapphireonline.pk/cdn/shop/files/00FCELX23V31_4.jpg?v=1695291075&width=600                " alt="">
+            </div>
+            <div class="overflow-hidden boxshadow rounded-lg">
+                <img class="lg\:h-80 h-96 lg\:w-96 sm\:h-56 sm\:w-96 md\:h-96 md\:w-96 w-\[148px\] duration-1000 hover:scale-125" src="
+                https://pk.sapphireonline.pk/cdn/shop/files/00FCELX23V31_1.jpg?v=1695291075&width=600                " alt="">
+            </div>
+            <div class="overflow-hidden boxshadow rounded-lg">
+                <img class="lg\:h-80 h-96 lg\:w-96 sm\:h-56 sm\:w-96 md\:h-96 md\:w-96 w-\[148px\] duration-1000 hover:scale-125" src="
+                https://pk.sapphireonline.pk/cdn/shop/files/00FCELX23V31_2.jpg?v=1695291075&width=600                " alt="">
+            </div>
+            <br>
+        </div>
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font tracking-widest heading1">Marvelous Locker</h2>
+          <h1 class=" text-3xl title-font font-medium mb-1 white1">2 PIECE - EMBROIDERED ORGANZA SUIT</h1>
+          <p class="mt-1 byprice">Rs.19,990.00</p>
+          <h2 class="text-sm title-font tracking-widest heading1">SKU:OSTPBDY23175-XXS-999</h2>
+          <div class="flex mb-4">
+            <span class="flex items-center heading1">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 gold" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 gold" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 gold" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 gold" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 gold" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+              <span class="ml-3 heading1">4 Reviews</span>
+            </span>
+          </div>
+    
+          <p class="leading-relaxed heading1"><b>Note: </b>Actual product color may vary slightly from the image</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+            <div class="flex ml-6 items-center">
+              <span class="mr-3 heading1">Size</span>
+              <div class="relative heading1 shadowimg1" >
+                <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10" style="background-color: #DD5E89;">
+                  <option>SM</option>
+                  <option>M</option>
+                  <option>L</option>
+                  <option>XL</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <button type="" id="button1" onclick="increaseCount()" class="text-center btn1count">+</button>
+            <p id="count" class="counter1">0</p>
+            <button type="" id="button2" onclick="decreaseCount()" class="text-center btn2count">-</button>
+            </div>
+            <button class="ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover: shadowimg1 rounded" style="background-color: #DD5E89;">ADD TO BAG</button>
+            <br>
+          <p class="mt-1 byprice white1"><br>Product details</p>
+          <div class="">
+            <p class="title-font font-medium text-2xl heading1 textcolor1">Straight Kurta</p>
+            <p class="leading-relaxed heading1">Refresh your wardrobe with our shocking pink dainty patterned straight<br> shirt featuring a Y-neckline.</p>
+            <br>
+            <p class="title-font font-medium text-2xl heading1 textcolor1">DETAILS:</p>
+            <p class="leading-relaxed heading1">Printed Front,Printed Back,Full Sleeves, Y-Neckline<br> <b>Colour:</b>Shocking Pink <br><b>Fabric:</b>Khaddar</p>
+            <br>
+            <p class="title-font font-medium text-2xl heading1 textcolor1">SIZE & FIT</p>
+            <p class="leading-relaxed heading1">Model height:5 Feet 6 Inches<br> Model Wears:XS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <footer class="text-gray-400 bg-gray-900 body-font bgcolor">
+        <div class="container py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left order-first">
+            <div class="w-1/2 sm:w-1/2 md:w-1/4 px-4">
+              <img src="lockpic.webp" width="70%" height="70%" style="background-position: center;">
+            </div>
+            <div class="w-1/2 sm:w-1/2 md:w-1/4">
+              <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3 textcolor1">CONTACT US</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="po hover:text-white" href="./locationmarv.html" style="color: white;"> <i class="fa-solid fa-location-dot"></i> Marvelous Retail Head Office 1.5-km,Defence Road,Bhobtain chowk, Off Raiwind Road, Opposite University of Lahore, Lahore.</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" style="color: white;"> <i class="fa-solid fa-envelope"></i> wecare@marvelousonline.pk</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" style="color: white;"> <i class="fa-solid fa-phone"></i> +92(0)42 111-738-245</a>
+                </li>
+              </nav>
+            </div>
+            <div class="w-1/2 sm:w-1/2 md:w-1/4">
+              <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3 textcolor1">CUSTOMER CARE</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="po hover:text-white" href="./exchange.html" style="color: white;">Exchanges & returns</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./faq.html" style="color: white;">FAQs</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./contectus.html" style="color: white;">Contact US</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./payments.html" style="color: white;">Payments</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./trackyouroder.html" style="color: white;">Track Your Order</a>
+                </li>
+              </nav>
+            </div>
+            <div class="w-1/2 sm:w-1/2 md:w-1/4">
+              <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3 textcolor1">INFORMATION</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="po hover:text-white" href="./aboutmav.html" style="color: white;">About Us</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./Privacypolicy.html" style="color: white;">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./stor.html" style="color: white;">Store Locator</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./fabric.html" style="color: white;">Fabric Glossary</a>
+                </li>
+                <li>
+                  <a class="po hover:text-white" href="./safepay.html" style="color: white;">SafePay Guide</a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+          <div class="border-t border-gray-200">
+            <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+              <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+                <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+                  <label for="footer-field" class="leading-7 text-sm" style="color:white;"><b>NEWSLETTER SIGNUP</b></label>
+                  <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" style="background-color: #DD5E89;">Subscribe</button>
+                <p class="lastcolor text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Subscribe to our Newsletter
+                  <br class="lg:block hidden">for Exclusive Updates
+                </p>
+              </div>
+              <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+                <a class="text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="bg-gray-100 bgcolor">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+              <p class="lastcolor text-sm text-center sm:text-left">© Copyright 2023 Marvelous Locker—
+                <a href="https://twitter.com/knyttneve" class="lastcolor ml-1" target="_blank" rel="noopener noreferrer">@MARVELOUS LOCKER</a>
+              </p>
+              <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-sm lastcolor">MARVELOUS LOCKER all rights reserverd. </span>
+            </div>
+          </div>
+        </footer>
+          <!-- ##### Header Area End ##### -->
+          <!-- jQuery (Necessary for All JavaScript Plugins) -->
+          <script src="js/jquery/jquery-2.2.4.min.js"></script>
+          <!-- Popper js -->
+          <script src="js/popper.min.js"></script>
+          <!-- Bootstrap js -->
+          <script src="js/bootstrap.min.js"></script>
+          <!-- Plugins js -->
+          <script src="js/plugins.js"></script>
+          <!-- Active js -->
+          <script src="js/active.js"></script>
+          </body>
+      </html>
